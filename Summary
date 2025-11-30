@@ -1,14 +1,12 @@
 Grocery Store Simulation Summary
 
-In this lab, I learned how event based simulation works using the SimPy library. The simulation modeled a grocery store with shoppers arriving, shopping, and entering a checkout queue.
-I made separate processes for shoppers, checkers, and customer arrival, which gave me a better understanding of how simulations work.
+I always enjoy labs like this. I love playing the weird games where you can run a store or something like that and manage merchandise and checkout lanes.
+It's oddly satisfying and it's fun to be able to collect the data.
 
-With only one or two checkers, the wait times grew quickly and the number of shoppers stuck in the queue increased.
-Adding more checkers reduced wait time significantly, and idle time increased when capacity exceeded demand.
-This demonstrated the balancing act between staffing levels and system load.
+Finding the balance with the checkers is truly an art and it's so interesting to me.
+From my little time working in a grocery store, I'd always observe the balance and think about what I'd do.
+So it was cool to check the different number of checkers and see how it affected the results. 
 
-I also improved my ability to gather and analyze simulation metrics, like average wait time, average shopping time, average number of items purchased, and total checker idle time.
-By adjusting variables such as arrival rate, number of items, and number of checkers, I could see how system behavior changed.
-This helped me understand how simulations are used to optimize real-world processes without needing physical trial and error.
-
-Overall, this lab taught me how event simulations work, how queues form and resolve, and how small operational changes can dramatically affect performance in a service environment.
+I do a lot of analysis and metric measuring for work, so it was nice to be able to improve my skills by finding averages like wait time. 
+Being able to manipulate the variables was also very nice as I normally work with hard numbers.
+This will most definitely help with understanding real world processes more. 
