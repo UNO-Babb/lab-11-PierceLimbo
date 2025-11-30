@@ -1,0 +1,14 @@
+Grocery Store Simulation Summary
+
+In this lab, I learned how event based simulation works using the SimPy library. The simulation modeled a grocery store with shoppers arriving, shopping, and entering a checkout queue.
+I made separate processes for shoppers, checkers, and customer arrival, which gave me a better understanding of how simulations work.
+
+With only one or two checkers, the wait times grew quickly and the number of shoppers stuck in the queue increased.
+Adding more checkers reduced wait time significantly, and idle time increased when capacity exceeded demand.
+This demonstrated the balancing act between staffing levels and system load.
+
+I also improved my ability to gather and analyze simulation metrics, like average wait time, average shopping time, average number of items purchased, and total checker idle time.
+By adjusting variables such as arrival rate, number of items, and number of checkers, I could see how system behavior changed.
+This helped me understand how simulations are used to optimize real-world processes without needing physical trial and error.
+
+Overall, this lab taught me how event simulations work, how queues form and resolve, and how small operational changes can dramatically affect performance in a service environment.
